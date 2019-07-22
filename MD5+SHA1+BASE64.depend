@@ -1,0 +1,25 @@
+# depslib dependency file v1.0
+1563796423 source:c:\users\zhmhb\codeblocksprojects\md5+sha1+base64\01.md5\md5.c
+	<memory.h>
+	<stdio.h>
+
+1563796402 c:\users\zhmhb\codeblocksprojects\md5+sha1+base64\01.md5\md5.h
+
+1563798470 source:c:\users\zhmhb\codeblocksprojects\md5+sha1+base64\main.c
+	<stdio.h>
+	<stdlib.h>
+	"md5.h"
+
+1563797722 source:c:\users\zhmhb\codeblocksprojects\md5+sha1+base64\02.sha1\sha1.c
+	<stdint.h>
+	<stdio.h>
+
+1563798552 source:c:\users\zhmhb\codeblocksprojects\md5+sha1+base64\03.base64\base64.c
+	"base64.h"
+	<string.h>
+	<stdio.h>
+
+1563798457 c:\users\zhmhb\codeblocksprojects\md5+sha1+base64\03.base64\base64.h
+	<stddef.h>
+	<stdint.h>
+

@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="MD5+SHA1+BASE64" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="Debug">
+				<Option output="bin/Debug/MD5+SHA1+BASE64" prefix_auto="1" extension_auto="1" />
+				<Option object_output="bin/obj/Debug/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-g" />
+					<Add option="-D __debug" />
+				</Compiler>
+			</Target>
+			<Target title="Release">
+				<Option output="bin/Release/MD5+SHA1+BASE64" prefix_auto="1" extension_auto="1" />
+				<Option object_output="bin/obj/Release/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-O2" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+				</Linker>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-Wall" />
+			<Add directory="include" />
+			<Add directory="01.MD5" />
+			<Add directory="02.SHA1" />
+			<Add directory="03.BASE64" />
+		</Compiler>
+		<Unit filename="01.MD5/md5.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="01.MD5/md5.h" />
+		<Unit filename="02.SHA1/sha1.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="02.SHA1/sha1.h" />
+		<Unit filename="03.BASE64/base64.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="03.BASE64/base64.h" />
+		<Unit filename="main.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Extensions>
+			<code_completion />
+			<envvars />
+			<debugger />
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>
